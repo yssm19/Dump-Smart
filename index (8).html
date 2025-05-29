@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dump Smart - Toss Your Junk The Smart Way</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: white;
+            color: black;
+        }
+        header {
+            background: #2e7d32;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        section {
+            padding: 1rem 2rem;
+        }
+        .intro {
+            background: #f1f8e9;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 1.5rem;
+        }
+        .pricing {
+            background: #e8f5e9;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+        .list-icons {
+            list-style: none;
+            padding: 0;
+        }
+        .list-icons li::before {
+            display: inline-block;
+            width: 1em;
+            margin-right: 0.5em;
+        }
+        .accepted li::before {
+            content: "✅";
+        }
+        .prohibited li::before {
+            content: "❌";
+        }
+        .form input {
+            display: block;
+            margin: 0.5rem 0;
+            padding: 0.5rem;
+            width: 100%;
+            max-width: 400px;
+        }
+        footer {
+            text-align: center;
+            background: #f1f8e9;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dump Smart</h1>
+        <p>Toss Your Junk The Smart Way</p>
+    </header>
+    <section>
+        <div class="intro">
+            <h2>What is Dump Smart?</h2>
+            <p>Dump Smart is a secure, membership-based drop-off site for non-food household junk. Our goal is to provide homeowners and small contractors with a clean, monitored location where they can responsibly dispose of bulky items without relying on random dumpsters or illegal dumping. With 24/7 surveillance and strict rules, we ensure a safe and respectful environment for all users.</p>
+        </div>
+
+        <div class="pricing">
+            <h2>Pricing</h2>
+            <p><strong>$150/month</strong> unlimited visits</p>
+            <p><strong>$100</strong> one-time drop</p>
+        </div>
+
+        <h2>✅ Accepted Items</h2>
+        <ul class="list-icons accepted">
+            <li>Old furniture</li>
+            <li>Wood scraps</li>
+            <li>Boxes and shelving</li>
+            <li>Non-food household junk</li>
+        </ul>
+
+        <h2>❌ Prohibited Items</h2>
+        <ul class="list-icons prohibited">
+            <li>Food waste</li>
+            <li>Liquids</li>
+            <li>Paint and chemicals</li>
+            <li>Hazardous materials</li>
+        </ul>
+
+        <h2>Rules & Surveillance</h2>
+        <p>This site is under heavy surveillance. One warning for violations. Second violation: access revoked permanently.</p>
+
+        <div class="form">
+            <h2>Get Updates</h2>
+            <p>Enter your information below to receive updates on the location and opening day.</p>
+            <form action="https://docs.google.com/forms/d/e/1FAIpQLSfU3wZKDG6aZFxILKwD9J2tDdc9w79MSrfZd3s-xo1nbnvyrQ/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
+                <input type="text" name="entry.1136075409" placeholder="Your Name" required>
+                <input type="email" name="entry.783295796" placeholder="Your Email" required>
+                <input type="tel" name="entry.1986552965" placeholder="Your Phone Number" required>
+                <input type="submit" value="Submit">
+            </form>
+            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
+        </div>
+    </section>
+    <footer>
+        <p>We will be in contact once we have location and open date.</p>
+    </footer>
+</body>
+</html>
